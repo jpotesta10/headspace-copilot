@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mental Wellness Companion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Your Mental Wellness Companion</h1>
+    </header>
+    <main>
+        <section id="ai-pet">
+            <h2>Your AI Pet</h2>
+            <div id="pet-container">
+                <img src="ai-pet-placeholder.png" alt="Your AI Pet" id="ai-pet-image">
+            </div>
+            <button onclick="interactWithPet()">Pet Me!</button>
+        </section>
+        <section id="mood-tracker">
+            <h2>Mood Tracker</h2>
+            <p>How are you feeling today?</p>
+            <button onclick="trackMood('happy')">Happy</button>
+            <button onclick="trackMood('okay')">Okay</button>
+            <button onclick="trackMood('sad')">Sad</button>
+        </section>
+        <section id="mindfulness-exercises">
+            <h2>Mindfulness Exercises</h2>
+            <p>Take a moment for a mindfulness exercise.</p>
+            <button onclick="startExercise()">Start Exercise</button>
+        </section>
+        <section id="self-care-reminders">
+            <h2>Self-Care Reminders</h2>
+            <p>Remember to take care of yourself.</p>
+            <button onclick="showReminder()">Show Reminder</button>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 Mental Wellness Companion</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
